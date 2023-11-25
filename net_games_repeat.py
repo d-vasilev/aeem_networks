@@ -136,7 +136,9 @@ def description_card():
             html.H3("Repeated Games Demo"),
             html.Div(
                 id="intro",
-                children="Explore symmetric connection model calculations. Provide number of nodes, direct connection benefit (delta), connection cost and add/drop edges.",
+                children="Explore favor exchange model calculations. "
+                "Provide probability for favor, value of favor, cost of doing favor and discount factor. "
+                "You could select one of the predefined networks and/or add/drop edges.",
             ),
         ],
     )
